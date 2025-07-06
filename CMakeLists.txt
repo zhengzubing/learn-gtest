@@ -14,7 +14,7 @@ FetchContent_MakeAvailable(googletest)
 
 # 测试可执行文件
 add_executable(learn_gtest
-        test/test_main.cpp
+        test/test_case.cpp
 )
 
 target_link_libraries(learn_gtest
